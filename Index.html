@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Devraj Sharma | Web Developer & Tech Entrepreneur</title>
+
+  <meta name="description"
+    content="Explore the portfolio and digital projects of Devraj Sharma, a web developer and aspiring tech entrepreneur from India.">
+
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0b0b0d">
+
+  <link rel="canonical"
+    href="4evraj.github.io/">
+
+  <meta property="og:title"
+    content="Devraj Sharma | Web Developer">
+  <meta property="og:description"
+    content="Web development, technology and digital projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:url"
+    content="https://4evraj.github.io/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Devraj Sharma",
+    "url": "4evraj.github.io/",
+    "description": "Web developer and aspiring tech entrepreneur.",
+    "sameAs": [
+      "https://www.instagram.com/4evraj.29/"
+    ]
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #0b0b0d;
+      color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 28px 22px 60px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #303036;
+      padding-bottom: 18px;
+    }
+
+    a { color: #b7c8ff; }
+
+    .hero { padding: 75px 0 45px; }
+
+    .eyebrow {
+      color: #b7c8ff;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 8vw, 64px);
+      line-height: 1.1;
+      margin: 14px 0;
+    }
+
+    h2 { margin-top: 40px; }
+
+    .muted { color: #b6b6c0; }
+
+    .project {
+      border: 1px solid #303036;
+      padding: 18px;
+      border-radius: 14px;
+      margin: 12px 0;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    footer {
+      border-top: 1px solid #303036;
+      margin-top: 45px;
+      padding-top: 18px;
+      color: #b6b6c0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <nav>
+      <strong>DEVRAJ.</strong>
+      <a href="#about">About me</a>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">WEB DEVELOPER · TECHNOLOGY</div>
+      <h1>Hi, I'm Devraj Sharma.</h1>
+      <p class="muted">
+        I explore technology, build websites and turn
+        ideas into digital projects.
+      </p>
+      <a href="#projects">Explore my work ↓</a>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>
+        I'm Devraj Sharma, an aspiring tech entrepreneur
+        interested in web development, software and
+        building useful digital products.
+        This website is where I share my work and
+        learning journey.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>My projects</h2>
+
+      <div class="project">
+        <h3>Web development</h3>
+        <p class="muted">
+          A collection of websites and experiments
+          I've worked on.
+        </p>
+        <p>Project links will be added as work is published.</p>
+      </div>
+
+      <div class="project">
+        <h3>Digital products</h3>
+        <p class="muted">
+          Exploring ideas for useful web apps
+          and technology projects.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Find me online</h2>
+      <div class="links">
+        <a href="https://www.instagram.com/4evraj.29/"
+           rel="me">Instagram</a>
+        <a href="https://github.com/4evraj"
+           rel="me">GitHub</a>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Devraj Sharma
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
